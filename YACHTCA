@@ -1,16 +1,7 @@
-/**
- *Submitted for verification at Etherscan.io on 2023-05-10
-*/
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
 
-/**
-Telegram: https://t.me/Yacht_eth
-
-0xE274B98766f20FD1EaB931aC80241cF5D90E7a11
- */
 interface IERC20 {
     /**
      * @dev Emitted when `value` tokens are moved from one account (`from`) to
@@ -360,7 +351,7 @@ abstract contract Ownable is Context {
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IERC20-approve}.
  */
-contract yacht is Context, IERC20, IERC20Metadata, Ownable {
+contract Pikster is Context, IERC20, IERC20Metadata, Ownable {
     using SafeMath for uint256;
     mapping(address => mapping(address => uint256)) private _allowances;
     address public  _bnbbusd;
